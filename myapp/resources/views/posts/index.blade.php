@@ -26,7 +26,7 @@
                     <a href="{{route('posts.edit',$post)}}" class="btn btn-primary">Edit</a>
                     <form action="{{route('posts.destroy', $post)}}" method="POST" style="display: :inline-block">
                         @csrf @method('DELETE')
-                        <button class="btn-danger">Delete</button>
+                        <button class="btn btn-danger">Delete</button>
                     </form>
                 </td>
             </tr>
